@@ -1,0 +1,163 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.container {
+    width:100%;
+    height:auto;
+    background: #228B22;
+   margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar {
+    width:100%;
+    
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.card-1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-right: 130px;
+}
+
+.card-2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width:85%;
+  
+
+}
+ul ,li ,a {
+   
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color:white;
+    text-decoration: none;
+    list-style-type:none;
+    padding-left: 25px;
+    font-size:30px
+}
+a:hover {
+    background-color:#228B22;
+    color: black;
+}
+.img {
+    width:50px;
+    height:50px;
+   
+}
+.titulo {
+    width:80%;
+    display:flex;
+    justify-content:center;
+}
+.card-3 {
+    width:300px;
+    height:340px;
+    margin-top:20px;
+    
+}
+.card-4 {
+    width:650px;
+    height: 360px;
+   
+}
+.tela-bloqueio {
+    width:200px;
+    height: 200px;
+
+}
+.dropdown {
+width: 200px;
+
+}
+
+
+.componentes {
+    width:75%;
+    margin: 0 auto;
+    display:flex;
+    justify-content:start;
+    color:white;
+    flex-wrap: wrap;
+}
+
+.imgBloqueio {
+    width:200px;
+}
+.text1 {
+    font-size:100px;
+    margin-top:2px;
+}
+.text2 {
+    font-size:35px;
+}
+.imgPc {
+width:600px;
+height:350px;
+}
+.cardsFinais {
+    width:90%;
+    margin: 0 auto;
+    display:flex;
+    justify-content:center;
+    color:white;
+    flex-wrap: wrap;
+    margin-left:200px;
+}
+.card-5 {
+    width:820px;
+    margin-bottom: 10px;
+   margin-right: 30px;
+}
+.card-6 {
+    width:400px;
+    
+    display: flex;
+    justify-content: end;
+   
+    margin-left: 50px;
+}
+.imgCorts {
+    width:400px;
+}
+@media only screen and (max-width: 800px) {
+   .card-2 ,.dropdown{
+      display: none;
+    }
+
+    .componentes {
+        display:block;
+        text-align: center;
+    }
+    .imgCorts {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    .text1 {
+        font-size: 60px;
+    }
+    .text2 {
+        font-size: 25px;
+    }
+    .container {
+        height:auto;
+    }
+    .cardsFinais ,.imgPc {
+        width:350px;
+        display: flex;
+        justify-content: center;
+        margin-left: 40px;
+    }
+    
+  }
+

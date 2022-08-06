@@ -1,0 +1,63 @@
+.mobile-container {
+  display: flex;
+  justify-content: center;
+    max-width: 580px;
+    margin: auto;
+    background-color:#228B22;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color:#228B22;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 28px;
+    display: block;
+   
+  }
+  
+  .topnav a.icon {
+    background:#228B22;
+    height: 100px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+   
+  }
+  
+  .topnav a:hover {
+    background-color:#228B22;
+    color: black;
+    
+  }
+  
+  .active {
+    background-color:#228B22;
+    color: white;
+    width: 120px;
+    height: 80px;
+  }
+  @media only screen and (min-width: 900px) {
+    .topnav{
+      display: none;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+  }
+ 
